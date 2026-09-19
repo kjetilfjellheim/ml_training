@@ -1,0 +1,40 @@
+# Commit title (max ~72 chars):
+# <type>(<scope>): <short summary>
+#
+# Types: feat, fix, refactor, docs, test, chore, ci, build
+# Example: feat(routes): add greeting service abstraction
+#
+# Full message example:
+# feat(api-contract): add shared response models
+#
+# Why:
+# - Reduce duplication between handlers and contract tests.
+#
+# What changed:
+# - Added src/api_contract.rs for response model structs.
+# - Updated routes to use shared models.
+#
+# Validation:
+# - [x] cargo fmt
+# - [x] cargo clippy --all-targets --all-features
+# - [x] cargo test
+
+<type>(<scope>): <summary>
+
+# Why:
+# - What problem does this change solve?
+
+# What changed:
+# -
+
+# Validation:
+# - [ ] cargo fmt
+# - [ ] cargo clippy --all-targets --all-features
+# - [ ] cargo test
+
+# Contract-first checklist:
+# - [ ] Updated openapi/api.yaml (if API surface changed)
+# - [ ] Added/updated tests for contract and handlers
+
+# Notes / follow-ups:
+# -
